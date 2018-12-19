@@ -1,0 +1,29 @@
+{
+  "scripts": {
+    "test": "mocha -r ts-node/register src/**/*.spec.ts && yarn lint",
+    "server": "ts-node ./src/server/app.ts",
+    "lint": "tslint src/*",
+    "postinstall": "tsc"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/es6-promise": "^3.3.0",
+    "@types/express": "^4.16.0",
+    "@types/mocha": "^5.2.5",
+    "@types/websocket": "^0.0.40",
+    "@types/ws": "^6.0.1",
+    "ccxt": "^1.18.32",
+    "ccxt-orderbook-handler": "https://github.com/SiestaMadokaist/ccxt-orderbook-handler#0.0.3",
+    "express": "^4.16.4",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.2.2",
+    "typescript-monads": "^3.8.0",
+    "websocket": "^1.0.28",
+    "ws": "^6.1.2"
+  }
+}
