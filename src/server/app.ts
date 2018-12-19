@@ -22,4 +22,4 @@ app.get("/binance/close-all", (req: any, res: any, next: any) => {
   res.send("DONE");
 })
 
-app.listen(5000);
+app.listen(5001);
