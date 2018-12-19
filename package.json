@@ -1,4 +1,6 @@
 {
+  "version": "0.0.1",
+  "main": "dist/index.js",
   "scripts": {
     "test": "mocha -r ts-node/register src/**/*.spec.ts && yarn lint",
     "server": "ts-node ./src/server/app.ts",
